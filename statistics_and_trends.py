@@ -122,9 +122,10 @@ def writing(moments, col):
     
     mean, stddev, skew, excess_kurtosis = moments
     print(f'\nFor the attribute {col}:')
-    print(f'Mean = {mean:.2f},
-        'f'Standard Deviation = {stddev:.2f}, 
-        'f'Skewness={skew:.2f}, and 'f'Excess Kurtosis = {excess_kurtosis:.2f}.')
+    print(f'Mean = {mean:.2f},'
+          f'Standard Deviation = {stddev:.2f}, '
+          f'Skewness={skew:.2f}, and '
+          f'Excess Kurtosis = {excess_kurtosis:.2f}.')
     # Delete the following options as appropriate for your data.
     # Not skewed and mesokurtic can be defined with asymmetries <-2 or >2.
     
